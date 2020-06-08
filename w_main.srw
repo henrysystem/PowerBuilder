@@ -82,7 +82,7 @@ fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
 fontfamily fontfamily = swiss!
 string facename = "Arial"
-string text = "PRUEBA GIT"
+string text = "GIT TEST"
 end type
 
 event clicked;messagebox('Prueba','Prueba Git',StopSign!)
