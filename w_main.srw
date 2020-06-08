@@ -2,6 +2,8 @@ HA$PBExportHeader$w_main.srw
 forward
 global type w_main from window
 end type
+type cb_1 from commandbutton within w_main
+end type
 type cb_process from commandbutton within w_main
 end type
 type dw_1 from datawindow within w_main
@@ -19,6 +21,7 @@ boolean controlmenu = true
 long backcolor = 67108864
 string icon = "AppIcon!"
 boolean center = true
+cb_1 cb_1
 cb_process cb_process
 dw_1 dw_1
 cb_cancel cb_cancel
@@ -50,19 +53,40 @@ Return USPSEncode(lblb_Track, lblb_Route, as_BarCode)
 end function
 
 on w_main.create
+this.cb_1=create cb_1
 this.cb_process=create cb_process
 this.dw_1=create dw_1
 this.cb_cancel=create cb_cancel
-this.Control[]={this.cb_process,&
+this.Control[]={this.cb_1,&
+this.cb_process,&
 this.dw_1,&
 this.cb_cancel}
 end on
 
 on w_main.destroy
+destroy(this.cb_1)
 destroy(this.cb_process)
 destroy(this.dw_1)
 destroy(this.cb_cancel)
 end on
+
+type cb_1 from commandbutton within w_main
+integer x = 731
+integer y = 896
+integer width = 411
+integer height = 112
+integer taborder = 30
+integer textsize = -10
+integer weight = 400
+fontcharset fontcharset = ansi!
+fontpitch fontpitch = variable!
+fontfamily fontfamily = swiss!
+string facename = "Arial"
+string text = "PRUEBA GIT"
+end type
+
+event clicked;messagebox('Prueba','Prueba Git',StopSign!)
+end event
 
 type cb_process from commandbutton within w_main
 integer x = 37
