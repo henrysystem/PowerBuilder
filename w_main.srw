@@ -135,10 +135,10 @@ borderstyle borderstyle = stylelowered!
 end type
 
 type cb_cancel from commandbutton within w_main
-integer x = 3109
+integer x = 2889
 integer y = 896
-integer width = 334
-integer height = 100
+integer width = 553
+integer height = 96
 integer taborder = 10
 integer textsize = -8
 integer weight = 400
