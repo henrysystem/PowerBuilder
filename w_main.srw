@@ -14,7 +14,7 @@ end forward
 
 global type w_main from window
 integer width = 3520
-integer height = 1128
+integer height = 1348
 boolean titlebar = true
 string title = "USPS Bar Code"
 boolean controlmenu = true
@@ -71,10 +71,10 @@ destroy(this.cb_cancel)
 end on
 
 type cb_1 from commandbutton within w_main
-integer x = 841
-integer y = 800
-integer width = 1573
-integer height = 224
+integer x = 805
+integer y = 896
+integer width = 1463
+integer height = 96
 integer taborder = 30
 integer textsize = -10
 integer weight = 700
@@ -82,23 +82,17 @@ fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
 fontfamily fontfamily = swiss!
 string facename = "Arial"
-string text = "GIT TEST HD"
+string text = "GIT TEST WZ"
 end type
 
 event clicked;messagebox('Prueba','Prueba Git',StopSign!)
-
-
-string ls_cadena
-
-
-ls_cadena = 'Hola'
 end event
 
 type cb_process from commandbutton within w_main
-integer x = 37
+integer x = 110
 integer y = 896
-integer width = 585
-integer height = 96
+integer width = 622
+integer height = 292
 integer taborder = 20
 integer textsize = -8
 integer weight = 400
@@ -130,8 +124,9 @@ end event
 
 type dw_1 from datawindow within w_main
 integer x = 37
-integer width = 3401
-integer height = 736
+integer y = 32
+integer width = 3406
+integer height = 836
 integer taborder = 10
 string title = "none"
 string dataobject = "d_testcases"
@@ -140,10 +135,10 @@ borderstyle borderstyle = stylelowered!
 end type
 
 type cb_cancel from commandbutton within w_main
-integer x = 2889
-integer y = 832
-integer width = 549
-integer height = 160
+integer x = 3109
+integer y = 896
+integer width = 334
+integer height = 100
 integer taborder = 10
 integer textsize = -8
 integer weight = 400
