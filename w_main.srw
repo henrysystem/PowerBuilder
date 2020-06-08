@@ -120,6 +120,8 @@ For ll_row = 1 To ll_max
 	End If
 Next
 
+
+messagebox('Aviso','data')
 end event
 
 type dw_1 from datawindow within w_main
