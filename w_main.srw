@@ -86,13 +86,19 @@ string text = "GIT TEST WZ"
 end type
 
 event clicked;messagebox('Prueba','Prueba Git',StopSign!)
+
+
+string ls_cadena
+
+
+ls_cadena = 'Hola'
 end event
 
 type cb_process from commandbutton within w_main
 integer x = 37
 integer y = 896
-integer width = 334
-integer height = 100
+integer width = 585
+integer height = 96
 integer taborder = 20
 integer textsize = -8
 integer weight = 400
