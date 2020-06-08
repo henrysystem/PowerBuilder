@@ -73,7 +73,7 @@ end on
 type cb_1 from commandbutton within w_main
 integer x = 805
 integer y = 896
-integer width = 2085
+integer width = 1573
 integer height = 96
 integer taborder = 30
 integer textsize = -10
@@ -82,7 +82,7 @@ fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
 fontfamily fontfamily = swiss!
 string facename = "Arial"
-string text = "GIT TEST WZ"
+string text = "GIT TEST HD"
 end type
 
 event clicked;messagebox('Prueba','Prueba Git',StopSign!)
