@@ -130,9 +130,8 @@ end event
 
 type dw_1 from datawindow within w_main
 integer x = 37
-integer y = 32
-integer width = 3406
-integer height = 836
+integer width = 3401
+integer height = 736
 integer taborder = 10
 string title = "none"
 string dataobject = "d_testcases"
@@ -142,9 +141,9 @@ end type
 
 type cb_cancel from commandbutton within w_main
 integer x = 2889
-integer y = 896
-integer width = 553
-integer height = 96
+integer y = 832
+integer width = 549
+integer height = 160
 integer taborder = 10
 integer textsize = -8
 integer weight = 400
