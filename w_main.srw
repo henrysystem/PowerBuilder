@@ -71,18 +71,18 @@ destroy(this.cb_cancel)
 end on
 
 type cb_1 from commandbutton within w_main
-integer x = 731
+integer x = 805
 integer y = 896
-integer width = 411
+integer width = 421
 integer height = 112
 integer taborder = 30
 integer textsize = -10
-integer weight = 400
+integer weight = 700
 fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
 fontfamily fontfamily = swiss!
 string facename = "Arial"
-string text = "GIT TEST"
+string text = "GIT TEST WZ"
 end type
 
 event clicked;messagebox('Prueba','Prueba Git',StopSign!)
