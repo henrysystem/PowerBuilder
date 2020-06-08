@@ -73,7 +73,7 @@ end on
 type cb_1 from commandbutton within w_main
 integer x = 805
 integer y = 896
-integer width = 1353
+integer width = 2085
 integer height = 96
 integer taborder = 30
 integer textsize = -10
